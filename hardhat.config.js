@@ -7,10 +7,10 @@ dotenv.config();
 module.exports = {
   networks: {
     hardhat: {
-      chainId: 1337,
+      chainId: 137,
     },
     testnet: {
-      url: "https://api.baobab.klaytn.net:8651", // baobab testnet
+      url: "https://polygon-rpc.com", // baobab testnet
       accounts: [process.env.PrivateKey], // add the account that will deploy the contract (private key)
     },
   },
